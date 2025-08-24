@@ -83,10 +83,22 @@ body {
 
 /* Em telas menores que 768px (tablet/celular) */
 @media (max-width: 768px) {
+  .apresentacao {
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+  }
+
   .foto {
-    max-width: 80%;   /* Aumenta no celular */
-    margin: 0 auto;   /* Centraliza */
-    display: block;   /* Garante centralização */
+    flex: none;    
+    width: 90%;      
+    max-width: 300px; 
+    margin: 0 auto;
+  }
+
+  .apresentacao__conteudo {
+    width: 100%; 
+    text-align: center; 
   }
 }
 /* RODAPÉ */
@@ -101,3 +113,4 @@ footer {
   border-top: 1px solid #222;
 
 }
+
