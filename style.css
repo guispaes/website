@@ -72,12 +72,11 @@ body {
 .foto {
   border-radius: 16px;  
   height: auto;  
-  max-width: 40%;  
+  max-width: 40%; 
   flex: 1;
   box-shadow: 0 0 20px rgba(0,255,136,0.3);
 }
 
-/* Em telas menores que 768px (tablet/celular) */
 @media (max-width: 768px) {
   .apresentacao {
     flex-direction: column;
