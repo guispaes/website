@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ESTILO GERAL */
 body {
   background-color: #0d0d0d;
   color: #e6e6e6;
@@ -15,7 +14,6 @@ body {
   line-height: 1.6;
 }
 
-/* APRESENTAÇÃO */
 .apresentacao {
   margin: 5% 10%;
   display: flex;
@@ -46,7 +44,6 @@ body {
   color: #00ff88;
 }
 
-/* LINKS */
 .apresentacao__links {
   display: flex;
   flex-wrap: wrap;
@@ -72,11 +69,10 @@ body {
   transform: scale(1.05);
 }
 
-/* IMAGEM */
 .foto {
   border-radius: 16px;  
   height: auto;  
-  max-width: 40%;   /* Computador */
+  max-width: 40%;  
   flex: 1;
   box-shadow: 0 0 20px rgba(0,255,136,0.3);
 }
@@ -101,9 +97,8 @@ body {
     text-align: center; 
   }
 }
-/* RODAPÉ */
+
 footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -111,6 +106,4 @@ footer {
   padding: 15px;
   text-align: center;
   border-top: 1px solid #222;
-
 }
-
