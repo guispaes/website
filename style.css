@@ -38,13 +38,18 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 100%; 
+  text-align: center; 
 }
 
 .apresentacao__conteudo__titulo {
-  font-size: clamp(1.8rem, 2.5vw, 2.125rem);
+  font-size: 34px;
   color: #00ff88;
 }
-
+.apresentacao__conteudo__subtitulo {
+  font-size: 30px;
+  color: #00ff88;
+}
 .apresentacao__conteudo__texto {
   font-size: clamp(1rem, 2vw, 1.2rem);
 }
@@ -62,18 +67,23 @@ html, body {
 }
 
 .apresentacao__links__botao {   
-  background-color: #00ff88;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #0d0d0d;
+  box-shadow: 0 0 20px rgba(0,255,136,0.3);
+  border: 4px solid rgba(0,255,136,0.3);
   width: 100%;
   margin: 0 auto;
   max-width: 280px;
   flex: 1;
   text-align: center;
   border-radius: 16px;
-  font-size: 1.2rem;
+  font-size: 24px;
   font-weight: bold;
   padding: 18px;
   text-decoration: none;
-  color: #0d0d0d;
+  color: #00ff88;
   transition: all 0.3s ease;
 }
 
@@ -85,7 +95,7 @@ html, body {
 .foto {
   border-radius: 16px;  
   height: auto;  
-  max-width: 40%; 
+  max-width: 30%; 
   flex: 1;
   box-shadow: 0 0 20px rgba(0,255,136,0.3);
 }
@@ -102,11 +112,6 @@ html, body {
     width: 90%;      
     max-width: 300px; 
     margin: 0 auto;
-  }
-
-  .apresentacao__conteudo {
-    width: 100%; 
-    text-align: center; 
   }
 }
 
