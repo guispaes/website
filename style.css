@@ -69,7 +69,7 @@ html, body {
 .apresentacao__links__botao {   
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   background-color: #0d0d0d;
   box-shadow: 0 0 20px rgba(0,255,136,0.3);
   border: 4px solid rgba(0,255,136,0.3);
@@ -88,7 +88,7 @@ html, body {
 }
 
 .apresentacao__links__botao:hover {
-  background-color: #00cc66;
+  background-color: rgba(0,255,136,0.3);
   transform: scale(1.05);
 }
 
